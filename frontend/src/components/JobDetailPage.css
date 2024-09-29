@@ -1,0 +1,48 @@
+.job-detail-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .job-detail-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-detail-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .job-detail-company,
+  .job-detail-location,
+  .job-detail-description {
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #007bff;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

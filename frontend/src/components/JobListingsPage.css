@@ -1,0 +1,87 @@
+/* Container for the job listings page */
+.listings-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  p{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  /* Title styling */
+  .listings-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Search bar styling */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Container for job listings */
+  .job-listings {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Individual job card */
+  .job-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Job title, company, and location */
+  .job-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .job-company {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .job-location {
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  /* Link to job details */
+  .job-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+  
+  .job-link:hover {
+    color: #0056b3;
+  }
+  

@@ -1,0 +1,49 @@
+/* Basic styling for the navbar */
+.navbar {
+    background-color: #333;      /* Dark background */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Brand styling */
+  .navbar-brand a {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Styling the list of links */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;    /* Spacing between links */
+  }
+  
+  .navbar-links li {
+    display: inline;
+  }
+  
+  /* Styling the individual links */
+  .navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .navbar-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

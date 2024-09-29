@@ -1,0 +1,78 @@
+/* EmployerDashboard.css */
+
+/* Center the form and make it responsive */
+.dashboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .dashboard-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .job-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Form group styling (for each label and input pair) */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  /* Label styling */
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  /* Input field styling */
+  .input-field {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border 0.2s;
+  }
+  
+  /* On focus, make the input more noticeable */
+  .input-field:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Special styling for description textarea */
+  .description-field {
+    min-height: 100px;
+  }
+  
+  /* Button styling */
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  /* Button hover effect */
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
